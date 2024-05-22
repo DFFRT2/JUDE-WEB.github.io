@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    
+    background-color: rgba(97, 97, 97, 0.158);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.404);
+    text-align: center;
+    padding: 15px;
+    height: 154px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+    margin: 40px 20px 0 20px;
+}
+
+
+.trailer iframe {
+    border: none;
+    outline: none;
+    width: auto;
+    height: 18.5vh;
+    margin: 2vw;
+    padding: 1.1vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(53, 94, 59));
+    border-radius: 20px;
+  }
+  
+  .trailer {
+    margin-top: 30px;
+  }
+.container .heading h1{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px;
+
+
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+
+}
